@@ -3,10 +3,11 @@ import RepoContextProvider from './context/Repo'
 import Home from './pages/Home'
 import NotFound from './pages/NotFound'
 import Repository from './pages/Repository'
+import { homepage } from '../package.json'
 
 export default function App() {
   return (
-    <Router>
+    <Router basename={ homepage }>
       <Switch>
 
         <Route path="/" exact component={Home} />

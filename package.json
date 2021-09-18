@@ -1,6 +1,7 @@
 {
   "name": "release-tracker",
   "version": "0.0.0",
+  "homepage": "/release-tracker",
   "scripts": {
     "dev": "vite",
     "build": "vite build",
